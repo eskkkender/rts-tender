@@ -12,11 +12,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class Search {
 
     private SelenideElement title = $(".auction_title");
-    private SelenideElement inputNumberTrade = $("input#BaseMainContent_MainContent_txtNumber_txtText");
-    private SelenideElement inputNameTrade = $("input#BaseMainContent_MainContent_txtName_txtText");
-    private SelenideElement checkboxUseNameTrade = $("#BaseMainContent_MainContent_cbxUseTradeName");
-    private SelenideElement checkboxUseNameLot = $("#BaseMainContent_MainContent_cbxUseLotName");
-    private SelenideElement inputNameLot = $("#BaseMainContent_MainContent_txtLotName_txtText");
     private SelenideElement inputPublicationDateFrom = $("#BaseMainContent_MainContent_txtPublicationDate_txtDateFrom");
     private SelenideElement inputPublicationDateTo = $("#BaseMainContent_MainContent_txtPublicationDate_txtDateTo");
     private SelenideElement inputPriceFrom = $("#BaseMainContent_MainContent_txtStartPrice_txtRangeFrom");
